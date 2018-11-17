@@ -42,7 +42,7 @@ class Search extends Component {
         {value => {
           const { dispatch } = value;
           return (
-            <Card className="card card-body mb-4 p-4">
+            <div className="mt-4 mb-4 p-4">
               <h1 className="display-4 text-center">
                 <i className="fas fa-music" /> Search For A Song
               </h1>
@@ -60,7 +60,7 @@ class Search extends Component {
                 </div>
                 <Button
                   variant="contained"
-                  color="secondary"
+                  color="primary"
                   fullWidth="true"
                   className="btn btn-primary btn-lg btn-block mb-5"
                   type="submit"
@@ -68,7 +68,7 @@ class Search extends Component {
                   Get Track Lyrics
                 </Button>
               </form>
-            </Card>
+            </div>
           );
         }}
       </Consumer>

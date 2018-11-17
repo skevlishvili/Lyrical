@@ -22,7 +22,7 @@ const Track = props => {
             </strong>
             :{track.album_name}
           </p>
-          <Button color="secondary" variant="contained">
+          <Button color="primary" variant="contained">
             <Link
               to={`lyrics/track/${track.track_id}`}
               className="btn btn-block"
